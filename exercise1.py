@@ -24,9 +24,14 @@ residuo = a % b
 print("Suma:", suma, "Resta:", resta, "Multiplicación:", multiplicacion, "Division cociente:", cociente, "División residuo:", residuo)
 print(f'Suma: {suma}, resta: {resta}, multiplicacion: {multiplicacion}, División cociente: {cociente}, División residuo: {residuo}')
 
-"""
-Ejercicio pidiendo datos por teclado
-"""
+
+# Ejercicio pidiendo datos por teclado
+
+numero1 = int(input("Digíte un valor: "))
+numero2 = int(input("Digíte otro valor: "))
+print(f'Suma: {numero1+numero2}, resta: {numero1-numero2}, multiplicacion: {numero1*numero2}, División cociente: {numero1/numero2}, División residuo: {numero1%numero2}')
+
+
 
 numero1 = int(input("Digíte un valor: "))
 numero2 = int(input("Digíte otro valor: "))
