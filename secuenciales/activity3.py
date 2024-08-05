@@ -1,3 +1,11 @@
+## Ejercicio 3
+
+"""
+Elabore un algoritmo que calcule el promedio de tres números, los cuales deben ser almacenados
+previamente en tres variables. El algoritmo debe imprimir el siguiente mensaje: El promedio de los
+números ingresado es: xxxx
+"""
+
 ## Solicitamos al usuario que ingrese 3 números
 valor1 = int(input("Inserta un número: "))
 valor2 = int(input("Inserta otro número: "))
